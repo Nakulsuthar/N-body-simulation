@@ -1,4 +1,4 @@
-# N-Body Simulation in Python
+# N-Body Simulation 
 
 A 3D N-body gravitational simulation built in Python that models celestial mechanics using **Verlet integration** and **collision merging**.
 
