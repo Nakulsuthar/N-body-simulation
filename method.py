@@ -67,7 +67,7 @@ def compute_gravitational_accelerations(bodies):
             r_mag = np.linalg.norm(r_vec)
 
             if r_mag == 0:
-                continue  # prevent division by zero
+                continue 
 
             total_acc += G * obj_j.mass * r_vec / r_mag**3
 
@@ -147,7 +147,7 @@ def check_and_merge_collisions(bodies, collision_distance=1e7):
                 # Remove body j
                 bodies.pop(j)
 
-                # ⚠️ DO NOT increment j here, as the list has shifted
+            
             else:
                 j += 1
         i += 1
